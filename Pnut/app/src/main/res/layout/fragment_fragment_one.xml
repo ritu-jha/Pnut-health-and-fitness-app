@@ -1,0 +1,294 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images5"
+    tools:context="com.ritu.THEAPP.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout 
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="100"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="100"
+
+            android:layout_weight="28"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:src="@drawable/images"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/image" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:layout_marginLeft="13dp"
+
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="First Name"
+                android:textColor="#000000"
+                android:id="@+id/firstname" />
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="6"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="WEEKLY TARGET"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#81C784"
+                android:layout_marginBottom="2dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="100"
+            android:layout_weight="20">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"></View>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:weightSum="100"
+
+                >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"></View>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    android:padding="7dp"
+                    android:background="@drawable/shadow"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Weight"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TIME"
+                        android:paddingTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20dp"
+                        android:id="@+id/wtime" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MIN"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"></View>
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"></View>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:weightSum="100"
+
+                >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"></View>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="80"
+                    android:padding="7dp"
+                    android:background="@drawable/shadow">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cardio"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="4dp"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TIME"
+                        android:paddingTop="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20dp"
+                        android:id="@+id/ctime" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MIN"
+                        android:paddingTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"></View>
+
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"></View>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            ></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="100"
+            android:layout_weight="5"
+            android:background="#4CAF50"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:gravity="center"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:background="#81C784"
+
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RANK : "
+
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+
+
+                    /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:background="#81C784"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SHOW RANK"
+
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="16dp"
+                    android:id="@+id/rank" /></LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE  STATUS"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:textSize="13dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/link_update" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

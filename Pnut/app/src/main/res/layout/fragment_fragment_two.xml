@@ -1,0 +1,276 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images5"
+    tools:context="com.ritu.THEAPP.FragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:weightSum="100"
+            android:gravity="center"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"></View>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="DATE : "
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:layout_weight="22"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="70"
+                android:hint="           dd/MM/yyyy"
+                android:textColorHint="#7e7e7e"
+                android:id="@+id/date" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"></View>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="WEIGHT :  "
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_weight="30"
+                android:gravity="center"
+
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="69"
+                android:hint="      max 10 decimals"
+                android:textColorHint="#7e7e7e"
+                android:id="@+id/weight" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEEKLY TARGET"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@drawable/shadow2"
+
+                android:layout_marginBottom="2dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"></View>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="WEIGHT :  "
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_weight="27"
+                android:gravity="center"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="40"
+                android:hint=""
+                android:textColorHint="#000000"
+                android:id="@+id/w_time" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="mins"
+                android:paddingTop="5dp"
+                android:layout_marginRight="8dp"
+                android:textSize="18dp"
+                android:layout_weight="15"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"></View>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CARDIO :  "
+                android:paddingTop="5dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_weight="27"
+                android:gravity="center"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="40"
+                android:hint=""
+                android:textColorHint="#000000"
+                android:id="@+id/c_time" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="mins"
+                android:paddingTop="5dp"
+                android:layout_marginRight="8dp"
+                android:textSize="18dp"
+                android:layout_weight="15"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            >
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Had A Cheat Meal Today"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:checked="false"
+                android:id="@+id/meal_checkbox" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="11"
+            >
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:textSize="13dp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/update" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"></View>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
